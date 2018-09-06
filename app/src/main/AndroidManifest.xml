@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.adil.cattledata">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login" />
+        <activity android:name=".Register" />
+        <activity android:name=".cattledata" />
+        <activity android:name=".about_us" />
+        <activity android:name=".feedback" />
+        <activity android:name=".Tabcheck" />
+        <activity android:name=".Register1" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".admin"
+            android:label="@string/title_activity_admin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".My_account"
+            android:label="@string/title_activity_my_account"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Cattle_information"
+            android:label="@string/title_activity_cattle_information"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".cattle_list"
+            android:label="@string/title_activity_cattle_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".expenses"
+            android:label="@string/title_activity_expenses"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Milk_yield_report"
+            android:label="@string/title_activity_milk_yield_report"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".farm_profit_or_loss"
+            android:label="@string/title_activity_farm_profit_or_loss"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".category_setting"
+            android:label="@string/title_activity_category_setting"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".help"
+            android:label="@string/title_activity_help"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".User_Account"
+            android:label="@string/title_activity_user__account"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".User_cattle_list"
+            android:label="@string/title_activity_user_cattle_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".User_other_options"
+            android:label="@string/title_activity_user_other_options"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".User_share"
+            android:label="@string/title_activity_user_share"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".User_send"
+            android:label="@string/title_activity_user_send"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Income"
+            android:label="@string/title_activity_income"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ShowData" />
+        <activity android:name=".Graph" />
+        <activity
+            android:name=".Product_information"
+            android:label="@string/title_activity_product_information"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Product_display" />
+        <activity android:name=".place_order" />
+        <activity android:name=".result" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".estimation" />
+        <activity android:name=".Show_orders"></activity>
+    </application>
+
+</manifest>

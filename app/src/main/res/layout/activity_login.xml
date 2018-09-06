@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adil.cattledata.login"
+    android:background="@drawable/login_page"
+    >
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:inputType="textPassword"
+        android:hint="Enter the password"
+        android:ems="10"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:id="@+id/password"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="31dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:hint="Enter the username"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:background="#ffffff"
+        android:id="@+id/username"
+        android:layout_above="@+id/SignIn"
+        android:layout_alignStart="@+id/password"
+        android:layout_marginBottom="47dp" />
+
+    <TextView
+            android:text="LOGIN"
+            android:textSize="25dp"
+        android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:id="@+id/textView10"
+        android:layout_alignBottom="@+id/username"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="101dp" />
+
+    <Button
+        android:text="Login"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/SignIn"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/password"
+        android:layout_alignStart="@+id/textView10"
+        android:background="#95e6e6"/>
+
+</RelativeLayout>

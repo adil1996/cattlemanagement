@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#81122f">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:hint="Enter the admin password"
+        android:layout_below="@+id/adminuser"
+        android:layout_alignParentStart="true"
+        android:id="@+id/adminpwd"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/adminpwd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:id="@+id/Sbmit" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Enter the Admiusername"
+        android:ems="10"
+        android:layout_marginTop="82dp"
+        android:id="@+id/adminuser"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"/>
+</RelativeLayout>

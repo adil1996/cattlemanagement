@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.adil.cattledata.Product_information"
+    tools:showIn="@layout/activity_product_information">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#e78989">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/a"
+            android:id="@+id/imageView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint=" Enter the product_id"
+            android:ems="10"
+            android:layout_below="@+id/selectpic"
+            android:id="@+id/cattle_no" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint=" Enter the product name"
+            android:ems="10"
+            android:layout_below="@+id/cattle_no"
+            android:id="@+id/breed" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint=" Enter the Quantity"
+            android:ems="10"
+            android:layout_below="@+id/breed"
+            android:id="@+id/dob" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint=" Enter the description of product"
+            android:ems="10"
+            android:layout_below="@+id/dob"
+            android:id="@+id/d_0f_purchase" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint=" Enter the price"
+            android:ems="10"
+            android:layout_below="@+id/d_0f_purchase"
+            android:id="@+id/cost" />
+
+        <Button
+            android:text="Save_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/save_p"
+            android:layout_below="@+id/cost"
+            android:layout_centerHorizontal="true" />
+        <Button
+            android:text="select pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/selectpic"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>

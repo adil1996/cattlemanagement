@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+app:layout_behavior="@string/appbar_scrolling_view_behavior"
+tools:context="com.example.adil.cattledata.Cattle_information"
+tools:showIn="@layout/activity_cattle_information">
+
+
+<RelativeLayout
+    android:id="@+id/relativeLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#e78989">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/a"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint=" Enter the cattle _number"
+        android:ems="10"
+        android:layout_below="@+id/selectpic"
+        android:id="@+id/cattle_no" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint=" Enter the breed"
+        android:ems="10"
+        android:layout_below="@+id/cattle_no"
+        android:id="@+id/breed" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint=" Enter the date of birth"
+        android:ems="10"
+        android:layout_below="@+id/breed"
+        android:id="@+id/dob" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint=" Enter the date of purchase"
+        android:ems="10"
+        android:layout_below="@+id/dob"
+        android:id="@+id/d_0f_purchase" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint=" Enter the cost of the cattle"
+        android:ems="10"
+        android:layout_below="@+id/d_0f_purchase"
+        android:id="@+id/cost" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint=" Enter the weigt of cattle"
+        android:ems="10"
+        android:layout_below="@+id/cost"
+        android:id="@+id/weight" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint=" Enter the Average daily fooder"
+        android:ems="10"
+        android:id="@+id/fooder"
+        android:layout_below="@+id/weight"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint=" Enter the Number of deliveries"
+        android:ems="10"
+        android:layout_below="@+id/fooder"
+        android:id="@+id/no_of_deliveries" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint=" Enter the last dilivery date"
+        android:ems="10"
+        android:id="@+id/delivery_date"
+        android:layout_below="@+id/no_of_deliveries"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint=" Enter the number of Vaccinations"
+        android:ems="10"
+        android:layout_below="@+id/delivery_date"
+        android:id="@+id/no_vaccin" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint=" Enter the last Vaccination date"
+        android:ems="10"
+        android:id="@+id/date_vacc"
+        android:layout_below="@id/no_vaccin" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint=" Enter the Number of Artificial Incimation"
+        android:ems="10"
+        android:id="@+id/incim"
+        android:layout_below="@id/date_vacc"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint=" Enter the last Artificial Incimation Date"
+        android:ems="10"
+        android:id="@+id/date_inci"
+        android:layout_below="@id/incim"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint=" Enter the Date of sale"
+        android:ems="10"
+        android:id="@+id/date_sale"
+        android:layout_below="@id/date_inci"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint=" Enter sale Price"
+        android:ems="10"
+        android:id="@+id/sale_price"
+        android:layout_below="@id/date_sale"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint=" Enter the Date of Death"
+        android:ems="10"
+        android:id="@+id/date_death"
+        android:layout_below="@id/sale_price"/>
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/date_death">
+        <TextView
+            android:id="@+id/text"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:text="          CLICK ON THE IMAGE TO CHOOSE THE TYPE OF
+                                   CATTLE"/>
+        <GridView
+            android:id="@+id/grid_view1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/text"
+            android:numColumns="3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            ></GridView>
+    </RelativeLayout>
+
+    <Button
+        android:text="select pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectpic"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.adil.cattledata.Income"
+    tools:showIn="@layout/activity_income">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#abcdef">
+        <Spinner
+            android:id="@+id/spinner"
+            android:background="#fedcba"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></Spinner>
+        <EditText
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Enter the milk Income"
+            android:id="@+id/milk_income" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Enter the curd income"
+            android:layout_below="@+id/milk_income"
+            android:layout_alignParentStart="true"
+            android:id="@+id/curd_income" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Enter the paneer income"
+            android:layout_below="@+id/curd_income"
+            android:layout_alignParentStart="true"
+            android:id="@+id/paneer_income" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Enter the cattle_sale_inome"
+            android:layout_below="@+id/paneer_income"
+            android:id="@+id/cattle_sale" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Enter the butter and cheese income"
+            android:layout_below="@+id/cattle_sale"
+            android:id="@+id/b_c_income" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Enter the other income source1"
+            android:layout_below="@+id/b_c_income"
+            android:id="@+id/other_income1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Enter the other income source2"
+            android:id="@+id/other_income2"
+            android:layout_below="@+id/other_income1"
+            />
+
+      <Button
+          android:id="@+id/saveIncome"
+          android:layout_width="match_parent"
+          android:text="SAVE INCOME"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/other_income2"/>
+
+
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

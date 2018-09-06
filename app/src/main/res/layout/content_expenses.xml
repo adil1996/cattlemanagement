@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.adil.cattledata.expenses"
+    tools:showIn="@layout/activity_expenses">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#b7ed4a">
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#abcdef"></Spinner>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint=" Enter the Transport Expences"
+            android:layout_below="@+id/spinner1"
+            android:id="@+id/transport" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint=" Enter the Labor Expenses"
+            android:layout_below="@+id/transport"
+            android:id="@+id/labor" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint=" Enter the Fodder Expenses"
+            android:layout_below="@+id/labor"
+            android:id="@+id/fodder" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint=" Enter the Water Expenses"
+            android:layout_below="@+id/fodder"
+            android:id="@+id/water" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint=" Enter the Electicity Expenses"
+            android:layout_below="@+id/water"
+            android:id="@+id/electricity" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint=" Enter the Medical Expences"
+            android:layout_below="@+id/electricity"
+            android:id="@+id/medical" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint=" Enter the Assest Expences"
+            android:id="@+id/assest"
+            android:layout_below="@+id/medical"
+             />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint=" Enter the Other1 Expenses"
+            android:layout_below="@+id/assest"
+            android:id="@+id/other1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint=" Enter the Other2 Expenses"
+            android:id="@+id/other2"
+            android:layout_below="@+id/other1"/>
+        <Button
+            android:id="@+id/save"
+            android:text="save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/other2"/>
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

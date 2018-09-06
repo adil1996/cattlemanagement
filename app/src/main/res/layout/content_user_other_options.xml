@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.adil.cattledata.User_other_options"
+    tools:showIn="@layout/activity_user_other_options"
+    android:background="#aab7f1">
+
+        <Button
+            android:id="@+id/see_orders"
+            android:text="order_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"/>
+        <Button
+            android:id="@+id/update_order"
+            android:layout_width="match_parent"
+            android:text="update_orders"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/see_orders"/>
+        <Button
+            android:id="@+id/delete_order"
+            android:text="delete_order"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/update_order"/>
+
+        <Button
+            android:id="@+id/add_order"
+            android:text="Add_own_product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/delete_order"/>
+
+    </RelativeLayout>

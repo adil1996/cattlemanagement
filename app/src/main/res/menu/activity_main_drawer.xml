@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/login1"
+            android:icon="@drawable/login"
+            android:title="LOGIN" />
+        <item
+            android:id="@+id/register"
+            android:icon="@drawable/sign_up"
+            android:title="REGISTER" />
+        <item
+            android:id="@+id/actt"
+            android:icon="@drawable/cattle"
+            android:title="ABOUT CATTLE MANAGEMENT" />
+        <item
+            android:id="@+id/abu"
+            android:icon="@drawable/about_us"
+            android:title="ABOUT US" />
+        <item
+            android:id="@+id/feebk"
+            android:icon="@drawable/feedback"
+            android:title="FEEDBACK" />
+
+    </group>
+
+
+
+</menu>

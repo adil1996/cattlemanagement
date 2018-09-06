@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home1"
+            android:icon="@drawable/page1"
+            android:title="HOME" />
+        <item
+            android:id="@+id/my_account"
+            android:icon="@drawable/my_account"
+            android:title="MY ACCOUNT" />
+        <item
+            android:id="@+id/Cattle_list"
+            android:icon="@drawable/cattle_list"
+            android:title="CATTLE LIST" />
+        <item
+            android:id="@+id/oters"
+            android:icon="@drawable/informatio"
+            android:title="OTHERS OPTION" />
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/b"
+            android:title="LOGOUT" />
+
+    </group>
+
+
+</menu>

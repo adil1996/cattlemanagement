@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/page1"
+            android:title="HOME" />
+        <item
+            android:id="@+id/account"
+            android:icon="@drawable/my_account"
+            android:title="MY ACCOUNT" />
+        <item
+            android:id="@+id/c_information"
+            android:icon="@drawable/informatio"
+            android:title="CATTLE INFORMATION" />
+
+        <item
+            android:id="@+id/c_expences"
+            android:icon="@drawable/expenses"
+            android:title="EXPENSES" />
+        <item
+            android:id="@+id/c_list"
+            android:icon="@drawable/cattle_list"
+            android:title="CATTLE LIST" />
+        <item
+            android:id="@+id/income"
+            android:icon="@drawable/income"
+            android:title="INCOME" />
+        <item
+            android:id="@+id/milk_report"
+            android:icon="@drawable/report_check"
+            android:title="MILK YIELD REPORT" />
+        <item
+            android:id="@+id/generate_report"
+            android:icon="@drawable/report_check"
+            android:title="GENERATE REPORT" />
+        <item
+            android:id="@+id/farm_profit"
+            android:icon="@drawable/profit"
+            android:title="FARM PROFIT AND LOSS REPORT" />
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/help"
+            android:title="Help" />
+        <item
+            android:id="@+id/categpry_setting"
+            android:icon="@drawable/cattle_list"
+            android:title="ESTIMATION" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/a"
+            android:title="LOGOUT" />
+    </group>
+
+
+</menu>

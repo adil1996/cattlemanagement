@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_feedback"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/f1"
+    tools:context="com.example.adil.cattledata.feedback">
+
+    <TextView
+        android:text="Rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView9"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_marginTop="45dp"
+        android:id="@+id/textView11"
+        android:background="#000000"
+       android:textColor="#ffffff"
+        />
+
+    <RatingBar
+        android:background="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView11"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_marginTop="14dp"
+        android:id="@+id/ratingBar2" />
+
+    <Button
+
+        android:text="Save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:id="@+id/b1"
+        android:layout_below="@+id/ratingBar2"
+        android:layout_alignStart="@+id/editText8"
+        android:layout_marginTop="24dp" />
+
+    <EditText
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:id="@+id/textView9"
+        android:hint="leave your yext here"
+        android:textColorHint="#ffffff"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:textColorHint="#ffffff"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="36dp"
+        android:id="@+id/editText6"
+        android:hint="Enter Name"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editText8" />
+
+    <EditText
+        android:textColorHint="#ffffff"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText8"
+        android:hint="Email ID"
+        android:layout_below="@+id/editText6"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_marginTop="24dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "834540806310",
+    "firebase_url": "https://cattledata-568dc.firebaseio.com",
+    "project_id": "cattledata-568dc",
+    "storage_bucket": "cattledata-568dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834540806310:android:af9e94f3e1f6ff82",
+        "android_client_info": {
+          "package_name": "com.example.adil.cattledata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834540806310-ibhjnabkbmc5cmn4tndaledrpb3co7b1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.adil.cattledata",
+            "certificate_hash": "8c21e9ebeda553039e63294d6108407a73bccbdf"
+          }
+        },
+        {
+          "client_id": "834540806310-s3tu8qf3ckb0hpois4hej6c9vcp50lhm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_56pLPFHXKX9KHCpf2aCXVtDWtAZeOzo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "834540806310-s3tu8qf3ckb0hpois4hej6c9vcp50lhm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

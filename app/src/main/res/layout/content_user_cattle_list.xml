@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.adil.cattledata.User_cattle_list"
+    tools:showIn="@layout/activity_user_cattle_list"
+    android:background="#b9ec10">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/textinsert"
+            android:layout_marginTop="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Choose the type of cattle from list"
+            android:textSize="20dp"
+            android:background="#000000"
+            android:textColor="#ffffff"/>
+        <GridView
+            android:id="@+id/grid_view2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="170dp"
+            android:numColumns="3"
+            />
+        <Button
+            android:id="@+id/select_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="330dp"
+            android:background="#000000"
+            android:text="SELECT THE ITEM FROM THE PRODUCT LIST"
+            android:textColor="#ffffff"/>
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_show_orders"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.adil.cattledata.Show_orders">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#c18c98">
+        <ImageView
+            android:id="@+id/putImg"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="17dp"
+            android:layout_below="@+id/head"
+            android:layout_centerHorizontal="true" />
+
+
+        <TextView
+            android:id="@+id/head"
+            android:text="PURCHASED_P_INFORMATION"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#81122f"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/putImg" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="#81122f"
+            android:textColor="#ffffff"
+            android:hint="Enter the Name"
+            android:textColorHint="#ffffff"
+            android:layout_marginStart="130dp"
+            android:textSize="20dp"
+            android:layout_marginTop="165dp"/>
+        <TextView
+            android:text="NAME"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="165dp"/>
+
+        <TextView
+            android:id="@+id/p_name"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="#81122f"
+            android:textColor="#ffffff"
+            android:layout_marginStart="130dp"
+            android:textSize="20dp"
+            android:layout_marginTop="205dp"/>
+        <TextView
+            android:text="P_NAME"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="205dp"/>
+
+        <TextView
+            android:id="@+id/p_id"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="#81122f"
+            android:textColor="#ffffff"
+            android:layout_marginStart="130dp"
+            android:textSize="20dp"
+            android:layout_marginTop="245dp"/>
+        <TextView
+            android:text="P_ID"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="245dp"/>
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="#81122f"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:hint="Enter your email"
+            android:layout_marginStart="130dp"
+            android:textSize="20dp"
+            android:layout_marginTop="285dp"/>
+        <TextView
+            android:text="Email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="285dp"/>
+        <TextView
+            android:id="@+id/cost"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="#81122f"
+            android:textColor="#ffffff"
+            android:layout_marginStart="130dp"
+            android:textSize="20dp"
+            android:layout_marginTop="450dp"/>
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:background="#81122f"
+            android:textColor="#ffffff"
+            android:hint="Enter the address"
+            android:textColorHint="#ffffff"
+            android:layout_marginStart="130dp"
+            android:textSize="20dp"
+            android:layout_marginTop="325dp"/>
+        <TextView
+            android:text="ADDRESS"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="325dp"/>
+
+        <TextView
+            android:id="@+id/mobile_no"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="#81122f"
+            android:textColor="#ffffff"
+            android:hint="Enter the Mobile_no"
+            android:textColorHint="#ffffff"
+            android:layout_marginStart="130dp"
+            android:textSize="20dp"
+            android:layout_marginTop="390dp"/>
+
+        <TextView
+            android:text="Mobile_no"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="390dp"/>
+
+        <TextView
+            android:id="@+id/Qty"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="#81122f"
+            android:textColor="#ffffff"
+            android:hint="Enter the Quantity"
+            android:textColorHint="#ffffff"
+            android:layout_marginStart="130dp"
+            android:textSize="20dp"
+            android:layout_marginTop="420dp"/>
+
+        <TextView
+            android:text="Quantity"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="420dp"/>
+        <TextView
+            android:text="PRICE"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="450dp"/>
+        <Button
+            android:id="@+id/confinrm_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:text="C0NFIRM SAVE"
+            android:layout_marginTop="480dp"/>
+
+    </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
